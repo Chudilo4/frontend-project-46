@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Chudilo4/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Chudilo4/frontend-project-46/actions)",
-  "main": "bin/gendiff.js",
+  "main": "src/gendiff.js",
   "scripts": {
     "test": "npx jest"
   },
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Chudilo4/frontend-project-46#readme",
   "devDependencies": {
+    "@jest/globals": "^29.7.0",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1",
@@ -31,7 +32,6 @@
     "prettier": "^3.2.5"
   },
   "dependencies": {
-    "@jest/globals": "^29.7.0",
     "commander": "^12.0.0",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
